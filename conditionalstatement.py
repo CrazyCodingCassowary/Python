@@ -35,3 +35,16 @@ if number%2==0:
     print("This is an even number")
 else:
     print("This is an odd number")
+
+
+
+
+char = input("Enter a single character: ")
+
+if len(char) != 1:
+    print("Please enter only one character.")
+else:
+    if char.isalpha():
+        print(f"'{char}' is an alphabet letter.")
+    else:
+        print(f"'{char}' is not an alphabet letter.")
